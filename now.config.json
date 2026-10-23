@@ -1,0 +1,6 @@
+{
+    "scope": "x_507217_incdash",
+    "scopeId": "da8e1579f65848a6961fd4a6d2563cf3",
+    "name": "Incident Monitoring Dashboard",
+    "tsconfigPath": "./src/server/tsconfig.json"
+}

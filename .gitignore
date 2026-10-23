@@ -2,3 +2,9 @@
 .env.*
 !.env.example
 node_modules/
+.DS_Store
+.now/
+dist/
+target/
+*.tsbuildinfo
+.jest_cache
