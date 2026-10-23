@@ -57,4 +57,20 @@ npx now-sdk exec --file scripts/backfill-open-slot.js --reason "Backfill giorno/
 
 Il backfill non aggiorna `sys_updated_*` e non esegue business rule né notifiche. Crea un contesto di rollback, consultabile nella Script Execution History.
 
+### Dati demo (solo PDI / istanze di sviluppo)
+
+`scripts/generate-demo-incidents.js` genera circa 390 incident realistici negli ultimi 6 mesi:
+- **Orari e giorni:** più aperture nei giorni feriali e negli orari d'ufficio.
+- **Canali:** shift-left graduale verso self-service e virtual agent.
+- **Major incident:** circa 75 giorni fa, un'indisponibilità di Exchange.
+- **Ciclo di vita:** tempi di risoluzione coerenti con la priorità, più un backlog con incident On Hold e alcuni ticket vecchi rimasti aperti.
+
+Il seed è fisso, quindi i dati sono riproducibili. Gli incident sono marcati con `correlation_display = INCMON_DEMO`. Gli script vanno eseguiti in scope global:
+
+```bash
+source scripts/sdk-env.sh
+npx now-sdk exec --scope global --file scripts/generate-demo-incidents.js --reason "Incident demo"
+npx now-sdk exec --scope global --file scripts/delete-demo-incidents.js --reason "Rimozione incident demo"
+```
+
 `src/fluent/generated/keys.ts` contiene i sys_id stabili dei record e va sempre committato insieme al codice.
