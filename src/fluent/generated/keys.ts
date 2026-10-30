@@ -123,6 +123,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '0418cf3c5e29487283bf6bf14c36f30b'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'short_description'
+                            position: '9'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '08607461e1d5440e89176950546ca462'
                         key: {
@@ -185,6 +207,70 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_form_section'
+                        id: '1f89f8026e984f4881f930be5da7346d'
+                        key: {
+                            sys_ui_form: {
+                                id: 'a808cdd6a6bf4092a1bae7809f1d5c2a'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: '43f0bb1901804d8f9434cba4df04defa'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Attività'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '2397192e8a6947fb98e133ecc0ad8502'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'pluto'
+                            position: '11'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '259e6d030f804385bcbd587850771381'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'pluto'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '2d0ec8ed52ad439297517b634304673a'
                         key: {
@@ -216,6 +302,98 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '3c8aa9e3df5e48759f7ae9fd841557f9'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '8'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '3ef43f1d6dc743839210ff52a5ea37e1'
+                        key: {
+                            sys_ui_section: {
+                                id: '43f0bb1901804d8f9434cba4df04defa'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Attività'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'activity.xml'
+                            position: '2'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form_section'
+                        id: '437349aa4a7d41f0a92d9e6b6730e96e'
+                        key: {
+                            sys_ui_form: {
+                                id: 'a808cdd6a6bf4092a1bae7809f1d5c2a'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '43f0bb1901804d8f9434cba4df04defa'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            caption: 'Attività'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '443c0efb86cd4c6f93642b35ec3ed86a'
                         key: {
@@ -235,6 +413,21 @@ declare global {
                             value: '09'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            caption: 'Client Case'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
                         }
                     },
                     {
@@ -268,6 +461,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '5fcbfe746aa74441ac3665c38429ff54'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'assigned_to'
+                            position: '6'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '715e4b0070f74eafb4a2b3cb9bef94e7'
                         key: {
@@ -276,6 +491,15 @@ declare global {
                             value: '18'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '72eb5588e22c45a0a5761bcecbd03a48'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'NULL'
+                            language: 'en'
                         }
                     },
                     {
@@ -290,11 +514,106 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '7639dc435756472dbf0d8f43ab2fcc8a'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'number'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '7aa6d4c3c5294e7b9ee700e542c950c9'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'opened_at'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '8059d08490c947aaaa6a5dbd0456456e'
                         key: {
                             name: 'incident'
                             element: 'x_507217_incdash_open_hour'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '81b755c6f3394242a684bb0b5669a263'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '82bce4ac728640759af0370207a268de'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '852bc6e7edc042209b11106a35a0df75'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'priority'
+                            position: '3'
                         }
                     },
                     {
@@ -328,6 +647,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '90330384e3014edca44c93bca64e8512'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'pippo'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '90ce3408d2f0425bb5538bb3196d20f1'
+                        key: {
+                            sys_ui_section: {
+                                id: '43f0bb1901804d8f9434cba4df04defa'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Attività'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'comments'
+                            position: '0'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '9623d92fb69f41928fc1efcfc105b5b2'
                         key: {
@@ -347,6 +697,36 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '9982f0087638457e98a2c5c22453689c'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '9b62af4164984b0389f56745cdad3589'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'assignment_group'
+                            position: '5'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '9ca8427859354853923e4e51ceb2dbed'
                         key: {
@@ -358,6 +738,36 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '9dde6dca823c46c387758a2c10f33a44'
+                        key: {
+                            sys_ui_section: {
+                                id: '43f0bb1901804d8f9434cba4df04defa'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Attività'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'work_notes'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9f3fe698300345a49affa2d05d247c48'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'pluto'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'a439f020ac1342419598facdac013d3f'
                         key: {
@@ -366,6 +776,20 @@ declare global {
                             value: '20'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form'
+                        id: 'a808cdd6a6bf4092a1bae7809f1d5c2a'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
                         }
                     },
                     {
@@ -471,6 +895,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'cf8718d0263d45f3b2f6830d7d581bcc'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'pippo'
+                            position: '10'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: 'd47435063666415a8a32d1d3046520ba'
                         key: {
@@ -528,11 +974,70 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_number'
+                        id: 'df3ecdd80ef7402f98d3b2d83e348c9c'
+                        key: {
+                            category: 'x_507217_incdash_client_case'
+                            prefix: 'CCS'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'e1ca8f2b21f243a1beab8b61b5ab75b1'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'state'
+                            position: '2'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'ef0a04279a3c445f87b70cda6946c0b7'
                         key: {
                             name: 'incident'
                             element: 'x_507217_incdash_open_dow'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'f0782b55a6474e9993d87d0c187fd8dc'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'f2bdd0ea3afc41fcafb07810281b6376'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'description'
+                            position: '12'
                         }
                     },
                     {
@@ -544,6 +1049,36 @@ declare global {
                             value: '03'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'f537b21223dc410fb4c0eaf17b1eea8e'
+                        key: {
+                            sys_ui_section: {
+                                id: '55ea548c1dfa43d28f873e92a4c7a11d'
+                                key: {
+                                    name: 'x_507217_incdash_client_case'
+                                    caption: 'Client Case'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '4'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f80fddf057a44ee4aa97afa98aa0fc28'
+                        key: {
+                            name: 'x_507217_incdash_client_case'
+                            element: 'pippo'
                         }
                     },
                     {
