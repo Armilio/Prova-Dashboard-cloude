@@ -3,7 +3,7 @@
 // Stessa logica di src/server/business-rules/set-open-slot.ts.
 // Esecuzione:
 //   source scripts/sdk-env.sh
-//   npx now-sdk exec --file scripts/backfill-open-slot.js --reason "Backfill giorno/ora apertura incident"
+//   cd apps/incident-dashboard && npx now-sdk exec --file scripts/backfill-open-slot.js --reason "Backfill giorno/ora apertura incident"
 // Senza aggiornare sys_updated_* e senza eseguire business rule/notifiche (setWorkflow(false)).
 // L'esecuzione crea un contesto di rollback, annullabile dalla Script Execution History.
 (function backfillOpenSlot() {

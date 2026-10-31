@@ -4,7 +4,7 @@
 // Va eseguito in scope global.
 // Esecuzione:
 //   source scripts/sdk-env.sh
-//   npx now-sdk exec --scope global --file scripts/generate-demo-incidents.js --reason "Incident demo per dashboard"
+//   cd apps/incident-dashboard && npx now-sdk exec --scope global --file ../../scripts/generate-demo-incidents.js --reason "Incident demo per dashboard"
 // Inserisce con setWorkflow(false): niente notifiche, SLA, assignment rule; le date (opened/resolved/closed,
 // sys_created_on) sono impostate esplicitamente e i campi giorno/ora apertura calcolati come nella business rule.
 (function generateDemoIncidents() {

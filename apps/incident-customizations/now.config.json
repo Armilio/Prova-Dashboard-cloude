@@ -1,0 +1,7 @@
+{
+    "scope": "global",
+    "scopeId": "a0ecdc6a0e6f4f308816974af6644c56",
+    "name": "Incident Customizations",
+    "tsconfigPath": "./src/server/tsconfig.json",
+    "packageResolverVersion": "2.0.0"
+}

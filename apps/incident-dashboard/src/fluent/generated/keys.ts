@@ -16,6 +16,7 @@ declare global {
                     'incident-resume-on-hold': {
                         table: 'sys_script'
                         id: '2541a160f08f487d835db6f9ea4428db'
+                        deleted: true
                     }
                     'incmon-backlog-aging': {
                         table: 'par_dashboard_widget'
@@ -112,6 +113,7 @@ declare global {
                     'src_server_business-rules_resume-on-hold_ts': {
                         table: 'sys_module'
                         id: 'bed04dc6fcb64eceb58ca297bb93cbb9'
+                        deleted: true
                     }
                     'src_server_business-rules_set-open-slot_ts': {
                         table: 'sys_module'
