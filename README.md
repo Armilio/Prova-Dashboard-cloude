@@ -11,6 +11,7 @@ App scoped ServiceNow (`x_507217_incdash`) sviluppata con il [ServiceNow SDK](ht
 | `src/server/business-rules/set-open-slot.ts` | Logica della business rule (giorno/ora di apertura nel fuso configurato) |
 | `src/fluent/client-case/client-case.now.ts` | Tabella `Client Case` (`x_507217_incdash_client_case`, estende `task`, numerazione `CCS`) con i campi `pippo` e `pluto`, più il suo form |
 | `src/fluent/incident/resume-on-hold.now.ts` | Business rule: un incident On Hold che riceve un commento o una work note torna In Progress (non scatta se lo stato cambia nello stesso salvataggio) |
+| `scripts/deactivate-oob-onhold-rules.js` | Disattiva le BR OOB "Auto state change from On-Hold" e "Incident State Change to In Progress", sostituite dalla regola sopra. Sono record global: la modifica va in un update set global dedicato e non nell'app |
 | `scripts/backfill-open-slot.js` | Backfill una tantum dei due campi sugli incident esistenti |
 | `scripts/sdk-env.sh` | Configura `now-sdk` in modalità CI a partire da `SN_INSTANCE_URL` / `SN_USERNAME` / `SN_PASSWORD` |
 
