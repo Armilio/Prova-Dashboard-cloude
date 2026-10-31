@@ -13,6 +13,10 @@ declare global {
                         table: 'par_dashboard'
                         id: 'ed7bcc0471f542d8a67edab59d656db6'
                     }
+                    'incident-resume-on-hold': {
+                        table: 'sys_script'
+                        id: '2541a160f08f487d835db6f9ea4428db'
+                    }
                     'incmon-backlog-aging': {
                         table: 'par_dashboard_widget'
                         id: '15cdecd36e264e4fb9893a073e3d4cfc'
@@ -104,6 +108,10 @@ declare global {
                     'set-incident-open-slot': {
                         table: 'sys_script'
                         id: '82b8889599a644f38a4209447f612553'
+                    }
+                    'src_server_business-rules_resume-on-hold_ts': {
+                        table: 'sys_module'
+                        id: 'bed04dc6fcb64eceb58ca297bb93cbb9'
                     }
                     'src_server_business-rules_set-open-slot_ts': {
                         table: 'sys_module'
